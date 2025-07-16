@@ -1,0 +1,48 @@
+body {
+    place-items: normal;
+}
+
+fieldset label {
+    margin-right: 20px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.btn-direccion {
+    width: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    color: #000;
+    font-size: large;
+    cursor: pointer;
+}
+.btn-direccion:hover {
+    background-color: #ccc;
+}
+
+.opcion-radio {
+    width: 110px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 6px 8px;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 6px;
+    background-color: #f9f9f9;
+    color: #000;
+    cursor: pointer;
+}
+.opcion-radio:hover {
+    background-color: #f9f9f9d2;
+}
